@@ -3,48 +3,38 @@ import { Link } from 'react-router-dom';
 const About = () => {
   const teamMembers = [
     {
-      name: "Maria Rodriguez",
-      role: "Cultural Research Lead",
-      department: "Anthropology",
-      country: "Mexico",
-      languages: ["Spanish", "English", "Nahuatl"],
-      focus: "Latin American & Indigenous cuisines",
-      avatar: "👩‍🎓"
+      name: "Faraz Khan",
+      department: "Information Systems",
+      country: "Paksitan",
+      languages: ["Pushto", "English", "Urdu", "Finnish"],
+      avatar: "👨‍💻"
     },
     {
       name: "Wei Chen",
-      role: "Technical Development Lead", 
       department: "Computer Science",
       country: "China",
       languages: ["Mandarin", "English", "Japanese"],
-      focus: "Full-stack development & UX design",
       avatar: "👨‍💻"
     },
     {
       name: "Fatima Al-Mansoori",
-      role: "Content & Translation Lead",
       department: "Linguistics",
       country: "UAE",
       languages: ["Arabic", "English", "French", "Urdu"],
-      focus: "Middle Eastern & South Asian cuisines",
       avatar: "👩‍🏫"
     },
     {
       name: "James O'Connell",
-      role: "Project Management Lead",
       department: "Business Administration", 
       country: "Ireland",
       languages: ["English", "Irish Gaelic", "German"],
-      focus: "European culinary traditions",
       avatar: "👨‍💼"
     },
     {
       name: "Chloe Williams",
-      role: "Design & User Research Lead",
       department: "Human-Computer Interaction",
       country: "USA",
       languages: ["English", "Spanish", "ASL"],
-      focus: "User experience & accessibility",
       avatar: "👩‍🎨"
     }
   ];
@@ -122,10 +112,6 @@ const About = () => {
                     </div>
                   </div>
 
-                  <div>
-                    <p className="text-sm font-semibold text-gray-700 mb-1">Focus Area:</p>
-                    <p className="text-gray-600 text-sm">{member.focus}</p>
-                  </div>
                 </div>
               </div>
             ))}
