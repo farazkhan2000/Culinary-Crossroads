@@ -5,37 +5,42 @@ const About = () => {
     {
       name: "Faraz Khan",
       department: "Information Systems",
-      country: "Paksitan",
+      country: "Pakistan",
       languages: ["Pushto", "English", "Urdu", "Finnish"],
-      avatar: "👨‍💻"
+      avatar: "💻", // Tech/Information Systems
+      role: "Technical Lead & Developer"
     },
     {
-      name: "Wei Chen",
-      department: "Computer Science",
-      country: "China",
-      languages: ["Mandarin", "English", "Japanese"],
-      avatar: "👨‍💻"
+      name: "Zahra Alizadeh",
+      department: "School of Business and Economics",
+      country: "Iran",
+      languages: ["Persian", "English", "Turkish", "Finnish"],
+      avatar: "📊", // Business/Economics
+      role: "Business & Cultural Research"
     },
     {
-      name: "Fatima Al-Mansoori",
-      department: "Linguistics",
-      country: "UAE",
-      languages: ["Arabic", "English", "French", "Urdu"],
-      avatar: "👩‍🏫"
+      name: "Susanna Waris",
+      department: "Sport Psychology",
+      country: "Australian and Finnish",
+      languages: ["German", "English", "Finnish", "Swedish"],
+      avatar: "🧠", // Psychology
+      role: "Research & Content Strategy"
     },
     {
-      name: "James O'Connell",
-      department: "Business Administration", 
-      country: "Ireland",
-      languages: ["English", "Irish Gaelic", "German"],
-      avatar: "👨‍💼"
+      name: "Jutta Tavaila",
+      department: "Responsible Management and Business of Sport", 
+      country: "Finnish and German",
+      languages: ["English", "Finnish", "German", "Swedish"],
+      avatar: "🏃‍♀️", // Sports Management
+      role: "Project Management & Coordination"
     },
     {
-      name: "Chloe Williams",
-      department: "Human-Computer Interaction",
-      country: "USA",
-      languages: ["English", "Spanish", "ASL"],
-      avatar: "👩‍🎨"
+      name: "Alireza Motlaghkhoshkalam",
+      department: "School Of Business",
+      country: "Iran",
+      languages: ["Farsi", "English", "Finnish"],
+      avatar: "📈", // Business
+      role: "Business Analytics & Marketing"
     }
   ];
 
