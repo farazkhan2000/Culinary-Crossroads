@@ -1,16 +1,30 @@
-# React + Vite
+# 🌍 Culinary Crossroads
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*A digital feast connecting cultures through authentic recipes and stories*
 
-Currently, two official plugins are available:
+## 🎓 The Story
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Culinary Crossroads was born from a collaboration between five Master's students from different departments at the University of Jyväskylä. United by our passion for cultural exchange and technology, we set out to create a platform that celebrates global culinary diversity.
 
-## React Compiler
+As a multicultural team speaking 12+ languages, we understand the power of food as a universal language. Our project combines technical expertise with cultural research to bring authentic recipes and stories from around the world to your kitchen.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Live Demo:** [https://culinary-crossroads-jyu.vercel.app/](https://culinary-crossroads-jyu.vercel.app/)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Cultural Stories**: Historical backgrounds and regional significance
+- **Global Recipes**: Authentic dishes from Italy, Japan, Pakistan, Finland, Iran, Uzbekistan, and more
+- **Smart Filtering**: Search by cuisine, difficulty, or ingredients
+- **Random Discovery**: New featured recipes on every visit
+- **Step-by-Step Guides**: Clear instructions for all skill levels
+
+## 🚀 Quick Start
+
+```bash
+# Clone and setup
+git clone https://github.com/farazkhan2000/Culinary-Crossroads.git
+cd culinary-crossroads
+npm install
+
+# Start development
+npm start
